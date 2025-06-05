@@ -7,6 +7,8 @@
     "build": "tsc -p ."
   },
   "devDependencies": {
-    "@types/node": "^18.0.0"
+    "@types/node": "^18.0.0",
+    "obsidian": "^1.5.12",
+    "openai": "^4.27.0"
   }
 }

@@ -11,10 +11,11 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["obsidian"],
+    "typeRoots": ["node_modules/@types", "node_modules/obsidian"]
   },
   "include": [
-    "src/**/*",
-    "obsidian.d.ts"
+    "src/**/*"
   ]
 }

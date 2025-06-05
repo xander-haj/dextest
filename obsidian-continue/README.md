@@ -12,7 +12,8 @@ Continue Assistant brings a chat-based AI helper to Obsidian. It creates a sideb
 ## Installation
 
 1. Clone or download this repository.
-2. Run `npm install` inside the `obsidian-continue` folder.
+2. Run `npm install` inside the `obsidian-continue` folder to install the
+   development dependencies (`obsidian` and `openai`).
 3. Run `npm run build` to generate `dist/main.js`.
 4. Copy the entire `obsidian-continue` folder to your Obsidian plugins directory.
 5. Enable **Continue Assistant** in Obsidian's community plugins settings.
@@ -24,3 +25,9 @@ Open the sidebar using the command palette command **Open Continue Assistant**. 
 ## Privacy
 
 All network requests are sent directly from your machine to the configured API endpoint. No data is collected by this plugin.
+
+## Development
+
+The project relies on the `obsidian` API type definitions and the official
+`openai` client. These packages are installed as development dependencies. Build
+the plugin with `npm run build` after installing dependencies.

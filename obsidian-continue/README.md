@@ -1,7 +1,26 @@
-# Obsidian Continue Plugin
+# Continue Assistant Plugin
 
-This plugin adds an AI-powered command that can continue selected text inside Obsidian. It uses OpenAI's completion API. Configure your API key in the plugin settings, select some text, and run the command **Continue Selection with AI** to generate the continuation.
+Continue Assistant brings a chat-based AI helper to Obsidian. It creates a sidebar panel where you can have a multi-turn conversation with a language model. The contents of your active note are automatically provided as context for each request and you can insert any assistant response directly into the editor.
 
-## Build
+## Features
 
-Run `npm install` to install development dependencies and then `npm run build` to compile the plugin. The compiled file will be generated in `dist/main.js`.
+- Dedicated sidebar view named **Continue Assistant**
+- Multi-turn chat with streaming responses
+- Responses can be inserted into the current note
+- Configurable API key, base URL, model, max tokens and temperature
+
+## Installation
+
+1. Clone or download this repository.
+2. Run `npm install` inside the `obsidian-continue` folder.
+3. Run `npm run build` to generate `dist/main.js`.
+4. Copy the entire `obsidian-continue` folder to your Obsidian plugins directory.
+5. Enable **Continue Assistant** in Obsidian's community plugins settings.
+
+## Usage
+
+Open the sidebar using the command palette command **Open Continue Assistant**. Type your question and click **Send**. Messages from the assistant include an **Insert** button to paste the response at your cursor position in the active editor.
+
+## Privacy
+
+All network requests are sent directly from your machine to the configured API endpoint. No data is collected by this plugin.

@@ -1,7 +1,7 @@
 {
   "name": "obsidian-continue",
-  "version": "0.1.0",
-  "description": "AI-assisted text continuation plugin for Obsidian",
+  "version": "1.0.0",
+  "description": "Continue Assistant sidebar plugin for Obsidian",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc -p ."

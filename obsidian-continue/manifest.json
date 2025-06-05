@@ -1,9 +1,9 @@
 {
  "id": "obsidian-continue",
- "name": "Obsidian Continue",
- "version": "0.1.0",
+ "name": "Continue Assistant",
+ "version": "1.0.0",
  "minAppVersion": "0.15.0",
- "description": "AI-assisted text continuation inspired by the Continue VS Code extension",
+ "description": "Chat-based assistant similar to the Continue extension for VS Code.",
  "author": "Example",
  "authorUrl": "https://example.com",
  "isDesktopOnly": false

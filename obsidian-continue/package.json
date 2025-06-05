@@ -1,12 +1,14 @@
 {
   "name": "obsidian-continue",
-  "version": "0.1.0",
-  "description": "AI-assisted text continuation plugin for Obsidian",
+  "version": "1.0.0",
+  "description": "Continue Assistant sidebar plugin for Obsidian",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc -p ."
   },
   "devDependencies": {
-    "@types/node": "^18.0.0"
+    "@types/node": "^18.0.0",
+    "obsidian": "^1.5.12",
+    "openai": "^4.27.0"
   }
 }
